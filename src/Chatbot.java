@@ -13,6 +13,14 @@ public class Chatbot {
         loadKnowledge(filepath);
     }
 
+    private String findSynonymIntent(String input) {
+        String mappedIntent = SynonymMapper.mapToIntention(input);
+        if (mappedIntent != null && intentResponses.containsKey(mappedIntent)) {
+            return mappedIntent;
+        }
+        return null;
+    }
+
     private void loadKnowledge(String path) {
         try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
             String line;
@@ -34,6 +42,11 @@ public class Chatbot {
     }
 
     public String getResponse(String input) {
+        String synonymIntent = findSynonymIntent(input);
+        if (synonymIntent != null) {
+            List<String> responses = intentResponses.get(synonymIntent);
+            return responses.get(new Random().nextInt(responses.size()));
+        }
         double[] inputVec = vectorizer.vectorize(input);
         double maxSim = -1;
         String bestIntent = null;
