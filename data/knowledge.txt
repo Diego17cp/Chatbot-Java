@@ -1,0 +1,3 @@
+saludo: hola, buenos días, buenas tardes, buenas noches, qué tal
+clima: qué clima hace, cómo está el clima, va a llover hoy
+despedida: adiós, hasta luego, nos vemos
