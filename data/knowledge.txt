@@ -1,3 +1,5 @@
-saludo: hola, buenos días, buenas tardes, buenas noches, qué tal
-clima: qué clima hace, cómo está el clima, va a llover hoy
-despedida: adiós, hasta luego, nos vemos
+que son datos=Los datos son hechos sin procesar|Son hechos individuales que carecen de significado por sí solos
+que es informacion=Es el resultado de procesar y contextualizar datos|La información tiene sentido y valor, a diferencia de los datos
+diferencia entre datos e informacion=Los datos son materia prima, la información es el producto|Los datos son insumos, la información es lo que entendemos
+saludo=Hola, ¿cómo estás?|¡Buenas! ¿En qué te ayudo hoy?
+despedida=¡Chao! Que tengas un buen día|Hasta luego, ¡cuídate!
