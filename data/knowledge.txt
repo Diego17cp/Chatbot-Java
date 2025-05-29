@@ -1,6 +1,28 @@
-que son datos=Los datos son hechos sin procesar|Son hechos individuales que carecen de significado por sí solos
-que es informacion=Es el resultado de procesar y contextualizar datos|La información tiene sentido y valor, a diferencia de los datos
-diferencia entre datos e informacion=Los datos son materia prima, la información es el producto|Los datos son insumos, la información es lo que entendemos
-saludo=Buenas tardes, primero la educación:v
-despedida=¡Chao! Que tengas un buen día|Hasta luego, ¡cuídate!
-mejor lenguaje de programacion=Typescript|TS|Javascript|JS
+que son datos=Los datos son hechos sin procesar|Son hechos individuales que carecen de significado por sí solos|Son valores crudos sin interpretación|Es lo que obtienes antes de analizar nada
+
+que es informacion=Es el resultado de procesar y contextualizar datos|La información tiene sentido y valor, a diferencia de los datos|Es lo que se entiende después de interpretar datos|Cuando los datos tienen propósito, se vuelven información
+
+diferencia entre datos e informacion=Los datos son materia prima, la información es el producto|Los datos son insumos, la información es lo que entendemos|Sin datos no hay información, pero datos sin contexto no dicen nada|Información = datos + procesamiento + contexto
+
+saludo=Buenas tardes, primero la educación :v|¡Hola! ¿Cómo estás?|Ey, qué tal bro :v|¡Buenas! ¿En qué te ayudo?|¡Wenas wenas, pa servirte!
+
+despedida=¡Chao! Que tengas un buen día|Hasta luego, ¡cuídate!|Nos vemos luego, fue un gusto :v|Adiós, ¡y que la RAM te acompañe!
+
+mejor lenguaje de programacion=Typescript|TS|Javascript|JS|Yo diría que depende, pero TS está brutal :v|JS forever, aunque Python también pega|El mejor lenguaje es el que dominas XD|Todos sirven, menos Java cuando tienes prisa xd
+
+que es una variable=Es un contenedor de datos que puede cambiar durante la ejecución|Es un espacio en memoria con un nombre para guardar valores|Piensa en una caja con nombre donde guardas info
+
+que es una funcion=Un bloque de código que realiza una tarea específica|Sirve para reutilizar código sin repetirlo|Es como una receta que puedes usar cada vez que la llames
+
+que es un bucle=Una estructura que repite un bloque de código varias veces|Sirve para ejecutar algo mientras se cumpla una condición|Es como decirle al compu “sigue haciendo esto hasta que te diga basta”|For, while y do-while son tipos comunes de bucles
+
+que es un array=Una colección ordenada de elementos, del mismo tipo|Es como una fila de casillas donde guardas datos|Un array es una lista de valores indexados|Es como una bandeja de cubitos, cada uno con su número
+
+que es una clase=Una plantilla para crear objetos en programación orientada a objetos|Define atributos y métodos que tendrá un objeto|Piensa en la clase como el plano, y los objetos como las casas|Es la base para usar POO (Programación Orientada a Objetos)
+
+para que sirve una base de datos=Para almacenar y gestionar grandes cantidades de información|Permite guardar datos estructurados para accederlos fácilmente|Sirve para que las apps recuerden cosas, como usuarios o productos
+
+que es la inteligencia artificial=Es la simulación de inteligencia humana por parte de máquinas|Permite que las máquinas aprendan y tomen decisiones|Es como enseñarle a una compu a razonar, sentir (simular) y actuar
+
+diferencia entre hardware y software=Hardware es lo físico; software es lo lógico|Hardware es tu PC, software es el sistema que la hace funcionar|Hardware es el cuerpo, software es la mente|Sin uno, el otro no sirve 😅
+
